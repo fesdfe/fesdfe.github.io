@@ -2,7 +2,7 @@
 <body>
 <strong>fesdfe's html<br></strong>
   随便写点啥
-  <button type="button">
+  <button type="button" onclick="alert('hello world!')">
     test1
     <html xmlns="https://www.baidu.com/">
   </button>
