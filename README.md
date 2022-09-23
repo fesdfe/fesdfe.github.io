@@ -5,7 +5,7 @@
   <button type="button" onclick="alert('hello world!')">
     test1
   </button>
-  <input type="button" onclick='location.href=("[index.aspx](https://www.baidu.com/)")' value="test2"/>
+  <input type="button" onclick='location.href=("https://www.baidu.com/")' value="test2"/>
   <input type="button" xmlns="https://www.baidu.com/" value="test3"/>
   0
   </body>
