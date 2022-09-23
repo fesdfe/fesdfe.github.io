@@ -4,5 +4,6 @@
   随便写点啥
   <button type="button" onclick="http://www.baidu.com">test1</button>
   <input type="button" onclick="'http://www.baidu.com'" value="test2"/>
+  <input type="button" onclick=<output>1</output> value="test3"/>
   </body>
   
