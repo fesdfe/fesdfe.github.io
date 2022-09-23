@@ -6,7 +6,7 @@
     test1
   </button>
   <input type="button" onclick='location.href=("https://www.baidu.com/")' value="test2-打开百度"/>
-  <input type="button" onclick="window.location.href='../fesdfe/'" value="test3-在当前地址后追加	&#34;/fesdfe/	&#34;"/>
+  <input type="button" onclick="window.location.href='../fesdfe/'" value="test3-在当前地址后追加	&#34;&frasl;fesdfe&#8260;	&#34;"/>
   <input type="button" onclick='window.open=("https://www.baidu.com/")' value="test4-新窗口打开百度"/>
   0
   </body>
