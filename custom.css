@@ -4,8 +4,7 @@ h1{
 
 .percentBar{
   resize:none;
-  width:500;
-  height:30;
-  readonly:readonly;
+  width:500px;
+  height:30px;
   backcolor:blue;
 }
