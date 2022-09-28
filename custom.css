@@ -3,8 +3,8 @@ h1{
 }
 
 .percentBar{
-  width:500px;
-  height:30px;
-  background-color:orange;
+  width:200px;
+  height:20px;
+  background-color:gray;
   border:1px solid #000;
 }
