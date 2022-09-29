@@ -19,7 +19,9 @@
   <div class="percentBar" id="bar01"></div><br>
   <button type="button" onclick="switchColor()" id="button01">
     更改进度条颜色
-  </button>
+  </button><br>
+  <div class="percentBar" id="bar02"></div><br>
+  <button type="button" onclick="moveTop("bar02",500)" id="button02">更改坐标</button>
   <script>
     function switchColor(){
     if(document.getElementById("bar01").style.background=="orange")
@@ -27,7 +29,11 @@
     else
     document.getElementById("bar01").style.background="orange";
     }
+    
+    function moveTop(target00, length00){
+    document.getElementById(target00).style.left=length00;
+    }
   </script>
-  1
+  0
   </body>
   </html>
