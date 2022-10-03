@@ -31,12 +31,14 @@
     }
     
     function movePosition(target00, mode00, X00, Y00){
-    if(mode00==0)
+    if(mode00==0){
       document.getElementById(target00).style.left=document.getElementById(target00).style.left + X00 + "px";
       document.getElementById(target00).style.top=document.getElementById(target00).style.top + Y00 + "px";
-    else
+    }
+    else{
       document.getElementById(target00).style.left=X00 + "px";
       document.getElementById(target00).style.top=Y00 + "px";
+    }
     }
   </script>
   1
