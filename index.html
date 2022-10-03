@@ -30,14 +30,14 @@
       document.getElementById(target00).style.background="orange";
     }
     
-    function movePosition(target00, mode00, X00, Y00){
+    function movePosition(target00, mode00, temp_X, temp_Y){
     if(mode00==0){
-      document.getElementById(target00).style.left=document.getElementById(target00).style.left + X00 + "px";
-      document.getElementById(target00).style.top=document.getElementById(target00).style.top + Y00 + "px";
+      document.getElementById(target00).style.left=document.getElementById(target00).style.left + temp_X + "px";
+      document.getElementById(target00).style.top=document.getElementById(target00).style.top + temp_Y + "px";
     }
     else{
-      document.getElementById(target00).style.left=X00 + "px";
-      document.getElementById(target00).style.top=Y00 + "px";
+      document.getElementById(target00).style.left=temp_X + "px";
+      document.getElementById(target00).style.top=temp_Y + "px";
     }
     }
   </script>
