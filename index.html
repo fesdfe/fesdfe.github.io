@@ -21,7 +21,7 @@
     更改进度条颜色
   </button><br>
   <div class="percentBar movable" id="bar02"></div><br>
-  <button type="button" onclick="movePosition('bar02', 1, 100 ,500)" id="button02">更改坐标</button>
+  <button type="button" onclick="movePosition('bar02', 0, 100 ,500)" id="button02">更改坐标</button>
   <script>
     function switchColor(target00){
     if(document.getElementById(target00).style.background=="orange")
@@ -34,15 +34,13 @@
     if(mode00==0){
       var temp_00 = document.getElementById(target00).style.left;
       temp_00 = parseFloat(temp_00);
-      document.getElementById(target00).style.left = temp_00 + temp_X + 'px';
+      temp_X = temp_00 + temp_X;
       temp_00 = document.getElementById(target00).style.top;
       temp_00 = parseFloat(temp_00);
-      document.getElementById(target00).style.top = temp_00 + temp_Y + 'px';
+      temp_Y = temp_00 + temp_Y;
     }
-    else{
-      document.getElementById(target00).style.left = temp_X + 'px';
-      document.getElementById(target00).style.top = temp_Y + 'px';
-    }
+    document.getElementById(target00).style.left = temp_X + 'px';
+    document.getElementById(target00).style.top = temp_Y + 'px';
     }
   </script>
   1
