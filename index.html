@@ -7,12 +7,9 @@
 </head>
 
 <body>
-<strong>fesdfe's html<br /></strong>
-  随便写点啥<br />
-  <h1>突然地插入一个标题</h1>
-  测试文本
-  测试文本<br>
-  测试文本<br />测试文本<br></br>测试文本
+<strong>fesdfe's html<br /></strong><br />
+  <span value="getClientWidth()"></span><br />
+  
   <button type="button" onclick="alert('Hello World!')">
     test1
   </button><br />
@@ -53,6 +50,11 @@
         document.getElementById(target00).style.length = length00 + "px";
       }
     }
+
+    function getClientWidth(){ return document.body.clientWidth; }
+    function getClientHeight(){ return document.body.clientHeight; }
+    function getScrollWidth(){ return document.body.scrollWidth; }
+    function getScrollWidth(){ return document.body.scrollHeight; }
   </script>
   1
   </body>
