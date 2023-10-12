@@ -9,6 +9,9 @@
 <body>
 <strong>fesdfe's html<br /></strong><br />
   页面显示宽度：<span id="displayClientWidth"></span><br />
+  页面显示高度：<span id="displayClientHeight"></span><br />
+  页面总宽度：<span id="displayScrolltWidth"></span><br />
+  页面总高度：<span id="displayScrollHeight"></span><br />
   
   <button type="button" onclick="alert('Hello World!')">
     test1
@@ -57,6 +60,9 @@
     function getScrollWidth(){ return document.body.scrollHeight; }
 
     document.getElementById('displayClientWidth').innerHTML = getClientWidth();
+    document.getElementById('displayClientHeight').innerHTML = getClientHeight();
+    document.getElementById('displayScrollWidth').innerHTML = getScrollWidth();
+    document.getElementById('displayScrollHeight').innerHTML = getScrollHeight();
   </script>
   1
   </body>
