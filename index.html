@@ -10,7 +10,7 @@
 <strong>fesdfe's html<br /></strong><br />
   页面显示宽度：<span id="displayClientWidth"></span><br />
   页面显示高度：<span id="displayClientHeight"></span><br />
-  页面总宽度：<span id="displayScrolltWidth"></span><br />
+  页面总宽度：<span id="displayScrollWidth"></span><br />
   页面总高度：<span id="displayScrollHeight"></span><br />
   
   <button type="button" onclick="alert('Hello World!')">
@@ -57,7 +57,7 @@
     function getClientWidth(){ return document.body.clientWidth; }
     function getClientHeight(){ return document.body.clientHeight; }
     function getScrollWidth(){ return document.body.scrollWidth; }
-    function getScrollWidth(){ return document.body.scrollHeight; }
+    function getScrollHeight(){ return document.body.scrollHeight; }
 
     document.getElementById('displayClientWidth').innerHTML = getClientWidth();
     document.getElementById('displayClientHeight').innerHTML = getClientHeight();
