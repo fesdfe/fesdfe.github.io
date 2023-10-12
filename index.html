@@ -8,7 +8,7 @@
 
 <body>
 <strong>fesdfe's html<br /></strong><br />
-  <span value="getClientWidth()"></span><br />
+  页面显示宽度：<span id="displayClientWidth"></span><br />
   
   <button type="button" onclick="alert('Hello World!')">
     test1
@@ -55,6 +55,8 @@
     function getClientHeight(){ return document.body.clientHeight; }
     function getScrollWidth(){ return document.body.scrollWidth; }
     function getScrollWidth(){ return document.body.scrollHeight; }
+
+    document.getElementById('displayClientWidth').innerHTML = getClientWidth();
   </script>
   1
   </body>
